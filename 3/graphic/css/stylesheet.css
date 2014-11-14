@@ -22,6 +22,10 @@ body {
 }
 
 
+.navbar-inverse .navbar-nav>li>a {
+	font-size:1.5em;
+}
+
 
 /* Module */
 
@@ -32,25 +36,25 @@ body {
 
 /* NAV BAR COLOR CHANGER */
 
-.navbar-inverse { background-color: #ffffff}
-.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #545252}
+.navbar-inverse { background-color: #000}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #333}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #000000}
 .dropdown-menu { background-color: #FFFFFF}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #000000}
 .navbar-inverse { background-image: none; }
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
 .navbar-inverse { border-color: #000000}
-.navbar-inverse .navbar-brand { color: #000000}
-.navbar-inverse .navbar-brand:hover { color: #4D4D4D}
-.navbar-inverse .navbar-nav>li>a { color: #000000}
+.navbar-inverse .navbar-brand { color: #FFF}
+.navbar-inverse .navbar-brand:hover { color: #FFF}
+.navbar-inverse .navbar-nav>li>a { color: #FFF}
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
 .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
-.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a { color: #fff}
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
-.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #000}
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
-.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #000}
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
 /* END OF= nav bar css coding */
 
@@ -59,6 +63,6 @@ body {
 
 /* HAMBURGER ICON */
 .icon-bar {
-   background-color:#000 !important;
+   background-color:#fff !important;
 }
 /* END OF HAMBURGER ICON */
