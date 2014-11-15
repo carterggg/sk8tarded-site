@@ -3,8 +3,8 @@
   session_start();
 
   //add you e-mail address here
-  define("guthrie.sk8tarded@gmail.com", "<<!! YOUR-EMAIL-ADDRESS-HERE !!>>");
-  define("Graphic Design Job/Question", "Feedback Form Results");
+  define("MY_EMAIL", "guthrie.sk8tarded@gmail.com");
+  define("EMAIL_SUBJECT", "Graphic Design Job/Question");
 
   //a map of fields to include in email, along with if they are required or not
   //aparently in PHP, arrays (maps) can't be constants?
