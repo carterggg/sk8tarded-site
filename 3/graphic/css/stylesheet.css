@@ -29,6 +29,17 @@ body {
 }
 
 
+.container {
+        width: auto;
+        max-width: 800px;
+      }
+      .form-group {
+        margin-bottom: 8px;
+      }
+      #feedbackForm {
+        font-size: 12px;
+      }
+
 /* Module */
 
 /* State */
