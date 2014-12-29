@@ -5,204 +5,77 @@ $main-font: 'courier_primeregular';
 
 /* BASE */ 
 
-body, nav {
-	background-color:$main-color2;
+* {
+	margin: auto;
+	padding: auto;
+}
+
+body {
+	background: #283f79; /* Old browsers */
+background: -moz-linear-gradient(top,  #283f79 0%, #88516f 11%, #ed6f5e 24%, #ee864c 43%, #f4ba65 54%, #009db3 67%, #009db3 80%, #428a9d 91%, #00838f 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#283f79), color-stop(11%,#88516f), color-stop(24%,#ed6f5e), color-stop(43%,#ee864c), color-stop(54%,#f4ba65), color-stop(67%,#009db3), color-stop(80%,#009db3), color-stop(91%,#428a9d), color-stop(100%,#00838f)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #283f79 0%,#88516f 11%,#ed6f5e 24%,#ee864c 43%,#f4ba65 54%,#009db3 67%,#009db3 80%,#428a9d 91%,#00838f 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #283f79 0%,#88516f 11%,#ed6f5e 24%,#ee864c 43%,#f4ba65 54%,#009db3 67%,#009db3 80%,#428a9d 91%,#00838f 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #283f79 0%,#88516f 11%,#ed6f5e 24%,#ee864c 43%,#f4ba65 54%,#009db3 67%,#009db3 80%,#428a9d 91%,#00838f 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #283f79 0%,#88516f 11%,#ed6f5e 24%,#ee864c 43%,#f4ba65 54%,#009db3 67%,#009db3 80%,#428a9d 91%,#00838f 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283f79', endColorstr='#00838f',GradientType=0 ); /* IE6-9 */
+;
+	background-repeat: no-repeat;
+	height:1000px;
 	font-family:$main-font;
+	margin: auto;
+	padding: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family:$main-font;
 }
 
-ul {
+nav ul li {
 	display: inline;
-	padding: 10px;
+}
+
+ul {
 	list-style: none;
 }
 
-/* mouse over li */
-li:hover {
-	text-decoration: none;
-    background-color: $main-color2;
-	color: $main-color;
-}
-
-/* .nav-a unvisited link */
-p a:link {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a visited link */
-p a:visited {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a mouse over link */
-p a:hover {
-	text-decoration: none;
+li {
 	background-color: $main-color2;
-	color: $main-color;
+	font-size: 2.5em;
+	padding-left: 5px;
 }
 
-/* .nav-a selected link */
-p a:active {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
+/* unvisited link */
+a:link {
+    color: $main-color;
 }
 
-/* .nav-a unvisited link */
-h2 a:link {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
+/* visited link */
+a:visited {
+    color: $main-color;
 }
 
-/* .nav-a visited link */
-h2 a:visited {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
+/* mouse over link */
+a:hover {
+    color: $main-color;
 }
 
-/* .nav-a mouse over link */
-h2 a:hover {
-	text-decoration: none;
-	background-color: $main-color2;
-	color: $main-color;
+/* selected link */
+a:active {
+    color: $main-color;
 }
-
-/* .nav-a selected link */
-h2 a:active {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-
 
 
 /* LAYOUT */ 
 
-.val-style {
-	font-family:$main-font;
-	margin: auto;
-	color:$main-color;
-	}
-
-.val-background {
-	padding: auto;
-	margin: auto;
+.left-nav {
+	border-left: 5px solid $main-color;
+	border-bottom: 5px solid $main-color;
 }
 
-/* .nav-a unvisited link */
-.nav-a a:link {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a visited link */
-.nav-a a:visited {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-/* .nav-a mouse over link */
-.nav-a a:hover {
-	text-decoration: none;
-	background-color: $main-color2;
-	color: $main-color;
-}
-
-/* .nav-a selected link */
-.nav-a a:active {
-	text-decoration: none;
-	background-color: $main-color;
-	color: $main-color2;
-}
-
-.top_space {
-	height: 200px;
-}
-
-.main-nav {
-	background-color: $main-color;
-	color: $main-color2;
-	padding: 12px;
-	margin: 4px;
-	width: 100%;    /* 170px */
-	font-family: 'monacoregular';
-	font-size: 1.2em;
-}
-
-.main-logo {
-	height:200px;
-	width: auto;
-}
-
-.main-photo { 
-	width: 450px; 
-	height: auto;
-	margin: auto;
-	padding: auto;
-}
-
-.fixed-nav {
-	position: fixed;
-	width: 15%;
-}
-
-.align-right {
-	text-align: right;
-}
-.align-center {
-	text-align: center;
-}
-
-.center-img {
-	margin: auto;
-	padding: auto;
-}
-
-.center-pagination {
-	text-align:center;
-}
-
-.background-comic {
-	background-image:url('ne-comic.png');
-	background-repeat: repeat-y;
-	width:100%;
-	height:100%;
-}
-
-.toggle-info, .toggle-info2 {
-	display: none;
-}
-
-.centered-gallery {
-	margin: auto;
-	padding: auto;
-}
-
-.active {
-	color: $main-color;
-	background-color: $main-color2;
-}
-
-.block-level {
-	display:inline;
-}
-
-.underlined {
-	border-bottom: solid 5px;
-	font-weight: bold;
-	font-family:$main-font;
+.right-nav {
+	border-right: 5px solid $main-color;
+	border-bottom: 5px solid $main-color;
 }
 
 
@@ -255,15 +128,3 @@ form{
 }
 
 
-/* Smartphones (portrait and landscape) ----------- */
-@media (min-width : 320px) and (max-width : 1400px ) {
-/* Styles */
-	
-	
-	
-	.centered-gallery img {
-		width: 100%;
-		height: 100%;
-	}
-	
-}
