@@ -78,10 +78,43 @@ a:active {
 	border-bottom: 5px solid $main-color;
 }
 
+/*tablet nav */
+.tablet-top-nav {
+	position: fixed;
+	z-index: 5;
+	border-left: 5px solid $main-color;
+	border-top: 5px solid $main-color;
+}
+
+.tablet-bottom-nav {
+	position: fixed;
+	z-index: 5;
+	border-left: 5px solid $main-color;
+	border-bottom: 5px solid $main-color;
+}
+
+.tablet-right-nav {
+	position: fixed;
+	z-index: 5;
+	border-right: 5px solid $main-color;
+	border-top: 5px solid $main-color;
+}
+
+.tablet-rightbottom-nav {
+	position: fixed;
+	z-index: 5;
+	border-right: 5px solid $main-color;
+	border-bottom: 5px solid $main-color;
+}
+
 .active {
 	text-decoration: line-through;
 }
 
+.fixed-logo {
+	position: fixed;
+	z-index: 5;
+}
 /* Video EMBed responsive code */
 
 .responsive-vid {
