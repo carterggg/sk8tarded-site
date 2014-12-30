@@ -5,10 +5,6 @@ $main-font: 'courier_primeregular';
 
 /* BASE */ 
 
-* {
-	margin: auto;
-	padding: auto;
-}
 
 body {
 	background: #283f79; /* Old browsers */
@@ -42,6 +38,9 @@ ul {
 li {
 	background-color: $main-color2;
 	font-size: 2.5em;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	padding-right: 5px;
 	padding-left: 5px;
 }
 
@@ -58,6 +57,7 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: $main-color;
+	text-decoration: line-through;
 }
 
 /* selected link */
@@ -78,6 +78,9 @@ a:active {
 	border-bottom: 5px solid $main-color;
 }
 
+.active {
+	text-decoration: line-through;
+}
 
 /* Video EMBed responsive code */
 
