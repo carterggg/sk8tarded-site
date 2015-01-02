@@ -20,6 +20,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/fb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1762,
+		"inputAbbreviatedPath": "\/images\/fb.jpg",
+		"outputAbbreviatedPath": "\/images\/fb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ig.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2596,
+		"inputAbbreviatedPath": "\/images\/ig.jpg",
+		"outputAbbreviatedPath": "\/images\/ig.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25457,
+		"inputAbbreviatedPath": "\/images\/logo\/logo.png",
+		"outputAbbreviatedPath": "\/images\/logo\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shirts\/m00n-cop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46138,
+		"inputAbbreviatedPath": "\/images\/shirts\/m00n-cop.jpg",
+		"outputAbbreviatedPath": "\/images\/shirts\/m00n-cop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shirts\/m00n-firetruck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63384,
+		"inputAbbreviatedPath": "\/images\/shirts\/m00n-firetruck.jpg",
+		"outputAbbreviatedPath": "\/images\/shirts\/m00n-firetruck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shirts\/m00n-horizon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44913,
+		"inputAbbreviatedPath": "\/images\/shirts\/m00n-horizon.jpg",
+		"outputAbbreviatedPath": "\/images\/shirts\/m00n-horizon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shirts\/tri-kolor-m00n.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53182,
+		"inputAbbreviatedPath": "\/images\/shirts\/tri-kolor-m00n.jpg",
+		"outputAbbreviatedPath": "\/images\/shirts\/tri-kolor-m00n.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/inc\/form.php": {
 		"fileType": 8192,
 		"ignore": 0,
