@@ -42,6 +42,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/logo\/logo copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25457,
+		"inputAbbreviatedPath": "\/images\/logo\/logo copy.png",
+		"outputAbbreviatedPath": "\/images\/logo\/logo copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -60,6 +71,17 @@
 		"initialSize": 46138,
 		"inputAbbreviatedPath": "\/images\/shirts\/m00n-cop.jpg",
 		"outputAbbreviatedPath": "\/images\/shirts\/m00n-cop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shirts\/m00n-doodleleaf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34187,
+		"inputAbbreviatedPath": "\/images\/shirts\/m00n-doodleleaf.jpg",
+		"outputAbbreviatedPath": "\/images\/shirts\/m00n-doodleleaf.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

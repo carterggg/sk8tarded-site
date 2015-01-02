@@ -47,11 +47,13 @@ li {
 /* unvisited link */
 a:link {
     color: $main-color;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: $main-color;
+	text-decoration: none;
 }
 
 /* mouse over link */
@@ -63,10 +65,17 @@ a:hover {
 /* selected link */
 a:active {
     color: $main-color;
+	text-decoration: none;
 }
 
 
 /* LAYOUT */ 
+
+.center-nav {
+	margin: auto;
+	padding-right: px;
+	
+}
 
 .left-nav {
 	border-left: 5px solid $main-color;
