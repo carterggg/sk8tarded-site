@@ -17,7 +17,6 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283f79', endColorstr='#00838f',GradientType=0 );
   /* IE6-9 */
   background-repeat: no-repeat;
-  height: 1000px;
   font-family: "courier_primeregular";
   margin: auto;
   padding: auto; }
