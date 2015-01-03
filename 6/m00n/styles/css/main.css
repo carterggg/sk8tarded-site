@@ -30,14 +30,6 @@ nav ul li {
 ul {
   list-style: none; }
 
-li {
-  background-color: white;
-  font-size: 2.5em;
-  padding-top: 4px;
-  padding-bottom: 0px;
-  padding-right: 5px;
-  padding-left: 5px; }
-
 /* unvisited link */
 a:link {
   color: black;
@@ -59,9 +51,28 @@ a:active {
   text-decoration: none; }
 
 /* LAYOUT */
+.footer-li {
+  background-color: white;
+  font-size: 1.5em;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black; }
+
+.main-li {
+  background-color: white;
+  font-size: 2.5em;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+  padding-left: 5px; }
+
 .center-nav {
   margin: auto;
-  padding-right: px; }
+  text-align: center;
+  width: 100%; }
 
 .left-nav {
   border-left: 5px solid black;
@@ -83,6 +94,9 @@ a:active {
 .tablet-rightbottom-nav {
   border-right: 5px solid black;
   border-bottom: 5px solid black; }
+
+.social-buttons {
+  float: right; }
 
 .active {
   text-decoration: line-through; }
