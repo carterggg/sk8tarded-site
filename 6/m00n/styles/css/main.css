@@ -55,14 +55,11 @@ a:active {
 
 /* LAYOUT */
 .footer-li {
-  background-color: white;
   font-size: 1.5em;
   padding-top: 4px;
   padding-bottom: 0px;
   padding-right: 6px;
-  padding-left: 6px;
-  border-bottom: 5px solid black;
-  border-right: 5px solid black; }
+  padding-left: 6px; }
 
 .main-li {
   background-color: white;
@@ -139,3 +136,9 @@ label {
 
 form {
   width: 100%; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width: 320px) and (max-width: 1400px) {
+  /* Styles */
+  .footer-li {
+    font-size: 1.5em; } }
